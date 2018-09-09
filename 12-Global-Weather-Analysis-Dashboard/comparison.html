@@ -1,0 +1,66 @@
+<!-- A "Comparisons" page that contains all of the visualizations on the same page so we can easily visually compare them..-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Whole Page CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <title>Comparisons</title>
+  </head>
+  <body>
+<!-- Navbar Start-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="maxtemperature.html">Max Temperature</a>
+                          <a class="dropdown-item" href="humidity.html">Humidity</a>
+                          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                          <a class="dropdown-item" href="windspeed.html">Windpseed</a>
+                        </div>
+                      </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparisons<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+<!-- Navbar End-->
+
+<!-- Main Body Start-->
+<br>
+Click on a plot to get a more in depth analysis.
+<div class="container">
+        <div class="row">
+          <div class="col"><a href="maxtemperature.html"><img src="images/temp_vs_lat.png"></a></div>
+          <div class="col"><a href="humidity.html"><img src="images/humidity_vs_lat.png"></a></div>
+          <div class="w-100"></div>
+          <div class="col"><a href="cloudiness.html"><img src="images/cloudiness_vs_lat.png"></a></div>
+          <div class="col"><a href="windspeed.html"><img src="images/windspeed_vs_lat.png"></a></div>
+        </div>
+      </div>
+
+  </body>
+</html>
