@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial=scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <title>UFO Sightings</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />	
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+        <form class="form-inline">
+          <div class="form-group">
+             <label for="date">Date/Time</label>
+               <input type="text" class="form-control" id="date_time" placeholder="MM/DD/YYYY">
+          </div>
+       <div class="form-group">
+         <label for="city">City</label>
+          <input type="text" class="form-control" id="city" placeholder="City">
+      </div>
+      <div class="form-group">
+             <label for="state" >State</label>
+               <input type="text" class="form-control" id="state" placeholder="State">
+          </div>
+          <div class="form-group">
+             <label for="country">Country</label>
+               <input type="text" class="form-control" id="country" placeholder="Country">
+          </div>
+          <div class="form-group">
+             <label for="shape">Shape</label>
+               <input type="text" class="form-control" id="shape" placeholder="Shape">
+          </div>
+  <button type="submit" class="btn btn-default" id="searchBtn">Search</button>
+</form>
+        <div class="row">
+          <div class="col-md-12"></div>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Date/Time</th>
+                  <th>City</th>
+                  <th>State</th>
+                  <th>Country</th>
+                  <th>Shape</th>
+                  <th>Duration</th>
+                  <th>Comment</th>
+                </tr> 
+              </thead>
+              <tbody>
+              </tbody>
+            </table>     	
+        </div>	
+    </div>
+  </div>
+
+  <script type="text/javascript" src="Data/data.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+
+</body>	
+</html>	
